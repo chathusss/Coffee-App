@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.5.119</domain>
+        <domain includeSubdomains="true">192.168.8.102</domain>
+        <domain includeSubdomains="true">192.168.5.115</domain>
+        <domain includeSubdomains="true">192.168.8.103</domain>
+        <domain includeSubdomains="true">192.168.8.100</domain>
+        <domain includeSubdomains="true">192.168.5.114</domain>
+        <domain includeSubdomains="true">192.168.5.116</domain>
+        <domain includeSubdomains="true">192.168.8.101</domain>
+        <domain includeSubdomains="true">13.229.231.18</domain>
+        <domain includeSubdomains="true">52.221.173.65</domain>
+        <domain includeSubdomains="true">52.221.150.236</domain>
+        <domain includeSubdomains="true">54.169.76.6</domain>
+        <domain includeSubdomains="true">maps.googleapis.com</domain>
+    </domain-config>
+    <!--Need to give the urls for the services we have our side -->
+</network-security-config>
